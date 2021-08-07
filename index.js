@@ -56,8 +56,7 @@ const convert = async (amount, fromCurrency, toCurrency) => {
     
     for (let i = 0; i < countries.length; i++) {
         let country = countries[i];
-        text = text + `<br><li>${country}</li>`
-        
+        text = text + `<br><li>${country}</li>`    
     }
     console.log(countries.length);
     result.innerHTML = text;
